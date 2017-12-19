@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/vxxui.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<script type="text/javascript" src="js/Vue2.5.1.js"></script>
+		<script type="text/javascript">
+			function onBtnClick(){
+				alert("被点击了");
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="app">
+			<div class="vxx-table-view">
+				<ul class="vxx-table-view-cell" v-for="data in dataArr">
+					<li class="vxx-table-view-cell">
+						<a class="vxx-table-view-cell-content" onclick="onBtnClick()">
+							
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+	<script type="application/javascript">
+		var vue = new Vue({
+			el: '#app',
+			data: {
+				msg: '33',
+				dataArr: [{
+						text: '1'
+					},
+					{
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					},
+					{
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					},
+					{
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					},
+					{
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}, {
+						text: '1'
+					}
+				]
+			}
+		})
+	</script>
+
+</html>
